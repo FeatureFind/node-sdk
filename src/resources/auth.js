@@ -1,3 +1,5 @@
+import jwt from "jsonwebtoken";
+
 export function createAuthResource(apiKey) {
   return {
     generateToken: (user) => {
